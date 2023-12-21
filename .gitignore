@@ -1,0 +1,13 @@
+*.swp
+*~
+*.iws
+*.log
+.idea
+.htaccess
+.DS_Store
+*.iml
+out
+gen
+node_modules
+package-lock.json
+/docs/sources/

@@ -1,0 +1,49 @@
+{
+    "name": "start",
+    "version": "10.0.0",
+    "description": "Start pack for Front-end develop",
+    "main": "gulpfile.js",
+    "author": "Denis Lipatov",
+    "license": "ISC",
+    "browserslist": [
+        "> 0.5%",
+        "last 2 versions",
+        "Firefox ESR",
+        "ie > 10",
+        "iOS > 9",
+        "not dead"
+    ],
+    "devDependencies": {
+        "@babel/core": "latest",
+        "@babel/preset-env": "latest",
+        "babel-loader": "latest",
+        "clean-webpack-plugin": "latest",
+        "browser-sync": "latest",
+        "fs": "latest",
+        "gulp": "latest",
+        "gulp-autoprefixer": "^8.0.0",
+        "gulp-changed-in-place": "latest",
+        "gulp-clean": "latest",
+        "gulp-csso": "latest",
+        "gulp-if": "latest",
+        "gulp-insert": "latest",
+        "gulp-plumber": "latest",
+        "gulp-sass": "latest",
+        "gulp-sourcemaps": "latest",
+        "sass": "latest",
+        "terser-webpack-plugin": "latest",
+        "webpack-stream": "latest"
+    },
+    "dependencies": {
+        "@fancyapps/fancybox": "latest",
+        "lazysizes": "latest",
+        "lottie-web": "latest",
+        "mq-breakpoints": "latest",
+        "remodal": "latest",
+        "select2": "latest",
+        "sharer.js": "latest",
+        "sp-form-data": "latest",
+        "swiper": "latest",
+        "trim-words": "latest"
+    }
+}

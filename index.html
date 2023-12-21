@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Сравнение строк в файлах</title>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all"/>
+</head>
+
+<body>
+
+<div class="container">
+  <form class="comparing" enctype="multipart/form-data">
+    <div class="comparing__col">
+      <label for="input-file_1">Первый сравниваемый файл</label>
+      <input id="input-file_1" name="file_1" type="file" accept=".txt" required>
+    </div>
+    <div class="comparing__col">
+      <label for="input-file_2">Второй сравниваемый файл</label>
+      <input id="input-file_2" name="file_2" type="file" accept=".txt" required>
+    </div>
+    <div class="comparing__col">
+      <div class="comparing__label">Запросы</div>
+
+      <label class="comparing__repeater-wrap">
+        <input type="text" name="query_text" placeholder="Параметр сравнения (Например: BAND)" required>
+      </label>
+
+      <button class="comparing__repeater-add" type="button">Добавить поле</button>
+    </div>
+
+    <div class="comparing__col-full">
+      <button class="comparing__submit" type="submit">Старт</button>
+    </div>
+  </form>
+</div>
+
+<script type="text/javascript" src="/assets/js/script.js"></script>
+</body>
+
+</html>
